@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_EXIT	common/src/utils.h	23;"	d
+COMMON_UTILS_H_	common/src/utils.h	15;"	d
+DATA_SIZE	user_module/src/prefetch_dma.h	13;"	d
+DEV_NAME	user_module/src/prefetch_user.c	13;"	d	file:
+DMA_COMMON	common/src/dma_common.c	/^DOCA_LOG_REGISTER(DMA_COMMON);$/;"	v
+DMA_COMMON_H_	common/src/dma_common.h	15;"	d
+DMA_REMOTE_COPY_RECEIVER	user_module/src/dma_remote_copy_receiver.c	/^DOCA_LOG_REGISTER(DMA_REMOTE_COPY_RECEIVER);$/;"	v
+DMA_REMOTE_COPY_SENDER	user_module/src/dma_remote_copy_sender.c	/^DOCA_LOG_REGISTER(DMA_REMOTE_COPY_SENDER);$/;"	v
+DOCA_DMA	user_module/src/prefetch_user.c	/^DOCA_LOG_REGISTER(DOCA_DMA);$/;"	v
+PAGE_SIZE	user_module/src/prefetch_dma.h	12;"	d
+TRANSFER_SIZE	user_module/src/prefetch_user.c	14;"	d	file:
+_DOCA_DMA_H	user_module/src/prefetch_dma.h	2;"	d
+addr	user_module/src/prefetch_dma.h	/^	uint64_t addr;$/;"	m	struct:hash_data
+addr	user_module/src/prefetch_user.c	/^	uint64_t addr;$/;"	m	struct:transfer_data_to_user	file:
+app_state	common/src/dma_common.h	/^struct app_state {$/;"	s
+buf	user_module/src/prefetch_dma.h	/^	char buf[PAGE_SIZE];$/;"	m	struct:hash_data
+buf	user_module/src/prefetch_user.c	/^	char buf[PAGE_SIZE];$/;"	m	struct:transfer_data_to_user	file:
+buf_inv	common/src/dma_common.h	/^	struct doca_buf_inventory *buf_inv;$/;"	m	struct:app_state	typeref:struct:app_state::doca_buf_inventory
+buffer	user_module/src/prefetch_dma.h	/^	struct hash_data *buffer;$/;"	m	struct:thread_data	typeref:struct:thread_data::hash_data
+cleanup_core_objects	common/src/dma_common.c	/^cleanup_core_objects(struct app_state *state)$/;"	f
+client_recv	user_module/src/dma_remote_copy_sender.c	/^client_recv(void *arg)$/;"	f
+client_send	user_module/src/dma_remote_copy_sender.c	/^client_send(void *arg)$/;"	f
+create_core_objects	common/src/dma_common.c	/^create_core_objects(struct app_state *state)$/;"	f
+ctx	common/src/dma_common.h	/^	struct doca_ctx *ctx;$/;"	m	struct:app_state	typeref:struct:app_state::doca_ctx
+d_cli_state	user_module/src/prefetch_user.c	/^struct doca_state d_state, d_cli_state;$/;"	v	typeref:struct:
+d_state	user_module/src/prefetch_dma.h	/^	struct doca_state *d_state;$/;"	m	struct:thread_data	typeref:struct:thread_data::doca_state
+d_state	user_module/src/prefetch_user.c	/^struct doca_state d_state, d_cli_state;$/;"	v	typeref:struct:doca_state
+data_to_copy_len	user_module/src/prefetch_dma.h	/^	size_t data_to_copy_len;$/;"	m	struct:thread_data
+destroy_core_objects	common/src/dma_common.c	/^destroy_core_objects(struct app_state *state)$/;"	f
+destroy_core_objects_sender	common/src/dma_common.c	/^destroy_core_objects_sender(struct app_state *state)$/;"	f
+dev	common/src/dma_common.h	/^	struct doca_dev *dev;$/;"	m	struct:app_state	typeref:struct:app_state::doca_dev
+dma_clear	user_module/src/dma_remote_copy_receiver.c	/^dma_clear(struct app_state state, struct doca_state d_state)$/;"	f
+dma_ctx	common/src/dma_common.h	/^	struct doca_dma *dma_ctx;$/;"	m	struct:app_state	typeref:struct:app_state::doca_dma
+dma_remote_copy_init	user_module/src/dma_remote_copy_receiver.c	/^dma_remote_copy_init(struct doca_pci_bdf *pcie_addr, struct app_state *state)$/;"	f
+dma_remote_copy_receiver	user_module/src/dma_remote_copy_receiver.c	/^dma_remote_copy_receiver(struct app_state state, struct hash_data *dst_buffer, size_t data_to_copy_len, int sender_fd, struct doca_state *d_state)$/;"	f
+dma_remote_copy_sender	user_module/src/dma_remote_copy_sender.c	/^dma_remote_copy_sender(struct app_state state, struct hash_data *src_buffer, size_t length, int sender_fd)$/;"	f
+dma_remote_sender_init	user_module/src/dma_remote_copy_sender.c	/^dma_remote_sender_init(struct doca_pci_bdf *pcie_addr, struct app_state *state)$/;"	f
+doca_state	user_module/src/prefetch_dma.h	/^struct doca_state {$/;"	s
+dst_doca_buf	user_module/src/prefetch_dma.h	/^	struct doca_buf *dst_doca_buf;$/;"	m	struct:doca_state	typeref:struct:doca_state::doca_buf
+h_dma_send_state	user_module/src/prefetch_user.c	/^int h_dma_send_state;$/;"	v
+hash	user_module/src/prefetch_user.c	/^GHashTable *hash;$/;"	v
+hash_data	user_module/src/prefetch_dma.h	/^struct hash_data {$/;"	s
+hash_table_size	user_module/src/prefetch_user.c	/^int hash_table_size;$/;"	v
+init_core_objects	common/src/dma_common.c	/^init_core_objects(struct app_state *state, const uint32_t max_chunks)$/;"	f
+init_core_objects_sender	common/src/dma_common.c	/^init_core_objects_sender(struct app_state *state)$/;"	f
+main	build/meson-private/sanitycheckc.c	/^int main(void) { int class=0; return class; }$/;"	f
+main	build/meson-private/sanitycheckcpp.cc	/^class breakCCompiler;int main(void) { return 0; }$/;"	f
+main	user_module/src/prefetch_user.c	/^int main(int argc, char* argv[]) $/;"	f
+make_client_thread	user_module/src/prefetch_user.c	/^void make_client_thread(struct app_state *state, struct hash_data *data, size_t data_to_copy_len)$/;"	f
+make_server_thread	user_module/src/prefetch_user.c	/^void make_server_thread(struct app_state *state, struct doca_state *d_state, struct hash_data *data, size_t data_to_copy_len)$/;"	f
+mapped_fd	user_module/src/prefetch_dma.h	/^	int mapped_fd;$/;"	m	struct:thread_data
+mapped_fd	user_module/src/prefetch_user.c	/^int mapped_fd;$/;"	v
+mmap	common/src/dma_common.h	/^	struct doca_mmap *mmap;$/;"	m	struct:app_state	typeref:struct:app_state::doca_mmap
+open_local_device	common/src/dma_common.c	/^open_local_device(struct doca_pci_bdf *desired_addr, struct app_state *state)$/;"	f
+pcie_addr	user_module/src/prefetch_user.c	/^struct doca_pci_bdf pcie_addr;$/;"	v	typeref:struct:doca_pci_bdf
+populate_mmap	common/src/dma_common.c	/^populate_mmap(struct doca_mmap *mmap, char *buffer, size_t length, size_t pg_sz)$/;"	f
+port	user_module/src/prefetch_user.c	/^char *port;$/;"	v
+printLog	user_module/src/prefetch_user.c	/^bool printLog(doca_error_t res) $/;"	f
+ready	user_module/src/prefetch_dma.h	/^	uint8_t ready;$/;"	m	struct:hash_data
+receive_json_from_sender	user_module/src/dma_remote_copy_receiver.c	/^receive_json_from_sender(char *export_buffer, size_t export_buffer_len, char **remote_addr,$/;"	f	file:
+receive_socket	user_module/src/dma_remote_copy_receiver.c	/^receive_socket(const char *port)$/;"	f
+receiver_ip	user_module/src/prefetch_user.c	/^char *receiver_ip;$/;"	v
+receiver_port	user_module/src/prefetch_user.c	/^uint16_t receiver_port;$/;"	v
+recv_state	user_module/src/prefetch_user.c	/^struct app_state send_state, recv_state;$/;"	v	typeref:struct:
+recv_thread	user_module/src/prefetch_user.c	/^pthread_t recv_thread;$/;"	v
+recv_thread_state	user_module/src/dma_remote_copy_receiver.c	/^bool recv_thread_state = false, send_thread_state = false;$/;"	v
+remote_mmap	user_module/src/prefetch_dma.h	/^	struct doca_mmap *remote_mmap;$/;"	m	struct:doca_state	typeref:struct:doca_state::doca_mmap
+sdk_version_callback	common/src/utils.c	/^sdk_version_callback(void *doca_config, void *param)$/;"	f
+send_ack_to_sender	user_module/src/dma_remote_copy_receiver.c	/^send_ack_to_sender(int sender_fd)$/;"	f	file:
+send_json_to_receiver	user_module/src/dma_remote_copy_sender.c	/^send_json_to_receiver(int sender_fd, char *export_str, size_t export_str_len)$/;"	f
+send_socket	user_module/src/dma_remote_copy_sender.c	/^send_socket(char *ip, uint64_t port)$/;"	f
+send_state	user_module/src/prefetch_user.c	/^struct app_state send_state, recv_state;$/;"	v	typeref:struct:app_state
+send_thread	user_module/src/prefetch_user.c	/^pthread_t send_thread;$/;"	v
+send_thread_state	user_module/src/dma_remote_copy_receiver.c	/^bool recv_thread_state = false, send_thread_state = false;$/;"	v
+sender_fd	user_module/src/prefetch_user.c	/^int sender_fd;$/;"	v
+server_recv	user_module/src/dma_remote_copy_receiver.c	/^server_recv(void *arg)$/;"	f
+server_send	user_module/src/dma_remote_copy_receiver.c	/^server_send(void *arg)$/;"	f
+src_doca_buf	user_module/src/prefetch_dma.h	/^	struct doca_buf *src_doca_buf;$/;"	m	struct:doca_state	typeref:struct:doca_state::doca_buf
+state	user_module/src/prefetch_dma.h	/^	struct app_state *state;$/;"	m	struct:thread_data	typeref:struct:thread_data::app_state
+thread_data	user_module/src/prefetch_dma.h	/^struct thread_data {$/;"	s
+transfer_data_to_user	user_module/src/prefetch_user.c	/^struct transfer_data_to_user {$/;"	s	file:
+ts	user_module/src/prefetch_dma.h	/^	uint64_t ts;$/;"	m	struct:hash_data
+unused	user_module/src/prefetch_dma.h	14;"	d
+wait_recv_doorbell	user_module/src/dma_remote_copy_receiver.c	/^wait_recv_doorbell(struct thread_data *tdata, uint8_t want_state)$/;"	f
+workq	common/src/dma_common.h	/^	struct doca_workq *workq;$/;"	m	struct:app_state	typeref:struct:app_state::doca_workq

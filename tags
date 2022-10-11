@@ -1,0 +1,418 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_EXIT	user_module/common/src/utils.h	23;"	d
+CLIENT	user_module/user_module/src/prefetch_argp.c	/^	CLIENT$/;"	e	enum:ROLE	file:
+CLIENT	user_module/user_module/src/prefetch_mmap.c	/^	CLIENT$/;"	e	enum:ROLE	file:
+CLIENT	user_module/user_module/src/prefetch_user.c	/^	CLIENT$/;"	e	enum:ROLE	file:
+COMMON_UTILS_H_	user_module/common/src/utils.h	15;"	d
+CONNECTION_TIMEOUT_MS	prefetch_rdma.c	42;"	d	file:
+CQ_NUM_CQES	prefetch_rdma.c	46;"	d	file:
+DATA_SIZE	prefetch_mmap.h	16;"	d
+DATA_SIZE	user_module/user_module/src/prefetch_dma.h	14;"	d
+DEFAULT_PORT	prefetch_tracker.c	/^int DEFAULT_PORT;$/;"	v
+DEFAULT_PORT	prefetch_tracker_old.c	/^int DEFAULT_PORT;$/;"	v
+DEV_NAME	prefetch_mmap.h	15;"	d
+DEV_NAME	user_module/user_module/src/prefetch_user.c	13;"	d	file:
+DMA_COMMON	user_module/common/src/dma_common.c	/^DOCA_LOG_REGISTER(DMA_COMMON);$/;"	v
+DMA_COMMON_H_	user_module/common/src/dma_common.h	15;"	d
+DMA_REMOTE_COPY_RECEIVER	user_module/user_module/src/dma_remote_copy_receiver.c	/^DOCA_LOG_REGISTER(DMA_REMOTE_COPY_RECEIVER);$/;"	v
+DMA_REMOTE_COPY_SENDER	user_module/user_module/src/dma_remote_copy_sender.c	/^DOCA_LOG_REGISTER(DMA_REMOTE_COPY_SENDER);$/;"	v
+DOCA_DMA	user_module/user_module/src/prefetch_user.c	/^DOCA_LOG_REGISTER(DOCA_DMA);$/;"	v
+HASHTABLE_TYPE	prefetch_mmap.c	/^typedef enum HASHTABLE_TYPE {$/;"	g	file:
+HASHTABLE_TYPE	prefetch_mmap.c	/^} HASHTABLE_TYPE;$/;"	t	typeref:enum:HASHTABLE_TYPE	file:
+H_METADATA_PREFETCH_DATA	prefetch_mmap.c	/^	H_METADATA_PREFETCH_DATA,$/;"	e	enum:HASHTABLE_TYPE	file:
+H_PREFETCH_DATA	prefetch_mmap.c	/^	H_PREFETCH_DATA,$/;"	e	enum:HASHTABLE_TYPE	file:
+H_WRITE_PREFETCH_DATA	prefetch_mmap.c	/^	H_WRITE_PREFETCH_DATA$/;"	e	enum:HASHTABLE_TYPE	file:
+INADDR_SEND	prefetch_tracker.c	33;"	d	file:
+INADDR_SEND	prefetch_tracker_old.c	31;"	d	file:
+KBUILD_EXTRA_SYMBOLS	Makefile	/^export KBUILD_EXTRA_SYMBOLS=$(OFA_SYMVERS)$/;"	m
+KDIR	Makefile	/^KDIR := \/lib\/modules\/`uname -r`\/build$/;"	m
+LINUXINCLUDE	Makefile	/^LINUXINCLUDE := \\$/;"	m
+MINOR_BASE	prefetch_tracker.c	/^const unsigned int MINOR_BASE = 0;$/;"	v
+MINOR_BASE	prefetch_tracker_old.c	/^const unsigned int MINOR_BASE = 0;$/;"	v
+MINOR_NUM	prefetch_tracker.c	/^const unsigned int MINOR_NUM = 1;$/;"	v
+MINOR_NUM	prefetch_tracker_old.c	/^const unsigned int MINOR_NUM = 1;$/;"	v
+MODE	user_module/user_module/src/dma_remote_copy_receiver.c	/^typedef enum MODE {$/;"	g	file:
+MODE	user_module/user_module/src/dma_remote_copy_receiver.c	/^}MODE;$/;"	t	typeref:enum:MODE	file:
+MODE	user_module/user_module/src/prefetch_argp.c	/^typedef enum MODE {$/;"	g	file:
+MODE	user_module/user_module/src/prefetch_argp.c	/^} MODE;$/;"	t	typeref:enum:MODE	file:
+MODE	user_module/user_module/src/prefetch_mmap.c	/^typedef enum MODE {$/;"	g	file:
+MODE	user_module/user_module/src/prefetch_mmap.c	/^} MODE;$/;"	t	typeref:enum:MODE	file:
+MODE	user_module/user_module/src/prefetch_user.c	/^typedef enum MODE {$/;"	g	file:
+MODE	user_module/user_module/src/prefetch_user.c	/^} MODE;$/;"	t	typeref:enum:MODE	file:
+MODULE_NAME	prefetch_tracker.c	32;"	d	file:
+MODULE_NAME	prefetch_tracker_old.c	30;"	d	file:
+OFA_DIR	Makefile	/^OFA_DIR ?= \/usr\/src\/ofa_kernel\/default$/;"	m
+OFA_INCLUDE	Makefile	/^OFA_INCLUDE := $(OFA_DIR)\/include$/;"	m
+OFA_SYMVERS	Makefile	/^OFA_SYMVERS := $(OFA_DIR)\/Module.symvers$/;"	m
+PAGE_CNT	prefetch_mmap.h	17;"	d
+PAGE_CNT	prefetch_rdma.c	7;"	d	file:
+PAGE_SIZE	user_module/user_module/src/prefetch_dma.h	13;"	d
+POLL_BATCH_HIGH	prefetch_rdma.c	47;"	d	file:
+QP_MAX_RECV_WR	prefetch_rdma.c	44;"	d	file:
+QP_MAX_SEND_WR	prefetch_rdma.c	45;"	d	file:
+QP_QUEUE_DEPTH	prefetch_rdma.c	43;"	d	file:
+QP_READ_ASYNC	prefetch_rdma.h	/^	QP_READ_ASYNC,$/;"	e	enum:qp_type
+QP_READ_SYNC	prefetch_rdma.h	/^	QP_READ_SYNC,$/;"	e	enum:qp_type
+QP_WRITE_SYNC	prefetch_rdma.h	/^	QP_WRITE_SYNC$/;"	e	enum:qp_type
+RECV	user_module/user_module/src/dma_remote_copy_receiver.c	/^	RECV$/;"	e	enum:MODE	file:
+RECV	user_module/user_module/src/prefetch_argp.c	/^	RECV$/;"	e	enum:MODE	file:
+RECV	user_module/user_module/src/prefetch_mmap.c	/^	RECV$/;"	e	enum:MODE	file:
+RECV	user_module/user_module/src/prefetch_user.c	/^	RECV$/;"	e	enum:MODE	file:
+ROLE	user_module/user_module/src/prefetch_argp.c	/^typedef enum ROLE {$/;"	g	file:
+ROLE	user_module/user_module/src/prefetch_argp.c	/^} ROLE;$/;"	t	typeref:enum:ROLE	file:
+ROLE	user_module/user_module/src/prefetch_mmap.c	/^typedef enum ROLE {$/;"	g	file:
+ROLE	user_module/user_module/src/prefetch_mmap.c	/^} ROLE;$/;"	t	typeref:enum:ROLE	file:
+ROLE	user_module/user_module/src/prefetch_user.c	/^typedef enum ROLE {$/;"	g	file:
+ROLE	user_module/user_module/src/prefetch_user.c	/^} ROLE;$/;"	t	typeref:enum:ROLE	file:
+SEND	user_module/user_module/src/dma_remote_copy_receiver.c	/^	SEND,$/;"	e	enum:MODE	file:
+SEND	user_module/user_module/src/prefetch_argp.c	/^	SEND,$/;"	e	enum:MODE	file:
+SEND	user_module/user_module/src/prefetch_mmap.c	/^	SEND,$/;"	e	enum:MODE	file:
+SEND	user_module/user_module/src/prefetch_user.c	/^	SEND = 0,$/;"	e	enum:MODE	file:
+SERVER	user_module/user_module/src/prefetch_argp.c	/^	SERVER,$/;"	e	enum:ROLE	file:
+SERVER	user_module/user_module/src/prefetch_mmap.c	/^	SERVER,$/;"	e	enum:ROLE	file:
+SERVER	user_module/user_module/src/prefetch_user.c	/^	SERVER = 0,$/;"	e	enum:ROLE	file:
+TRANSFER_SIZE	user_module/user_module/src/prefetch_user.c	14;"	d	file:
+_DOCA_DMA_H	user_module/user_module/src/prefetch_dma.h	2;"	d
+_PREFETCH_MMAP_H	prefetch_mmap.h	2;"	d
+_PREFETCH_MMAP_H	user_module/user_module/src/prefetch_mmap.h	2;"	d
+_SSWAP_RDMA_H	prefetch_rdma.h	2;"	d
+_ksocket_h_	ksocket.h	2;"	d
+addr	prefetch_mmap.h	/^	uint64_t addr; \/\/ key$/;"	m	struct:prefetch_data
+addr	prefetch_mmap.h	/^	uint64_t addr;$/;"	m	struct:transfer_data_to_user
+addr	prefetch_mmap.h	/^	uint64_t addr;$/;"	m	struct:write_prefetch_data
+addr	prefetch_rdma.h	/^		struct sockaddr addr;$/;"	m	union:sswap_rdma_ctrl::__anon1	typeref:struct:sswap_rdma_ctrl::__anon1::sockaddr
+addr	prefetch_tracker_old.c	/^	struct sockaddr_in addr, client;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::sockaddr_in	file:
+addr	user_module/user_module/src/prefetch_dma.h	/^	uint64_t addr;$/;"	m	struct:hash_data
+addr	user_module/user_module/src/prefetch_user.c	/^	uint64_t addr;$/;"	m	struct:transfer_data_to_user	file:
+addr_cli	prefetch_tracker.c	/^	struct sockaddr_in addr_srv, addr_cli;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::	file:
+addr_in	prefetch_rdma.h	/^		struct sockaddr_in addr_in;$/;"	m	union:sswap_rdma_ctrl::__anon1	typeref:struct:sswap_rdma_ctrl::__anon1::sockaddr_in
+addr_srv	prefetch_tracker.c	/^	struct sockaddr_in addr_srv, addr_cli;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::sockaddr_in	file:
+app_state	user_module/common/src/dma_common.h	/^struct app_state {$/;"	s
+atomic_head_inc	prefetch_rdma.c	/^void atomic_head_inc(void)$/;"	f
+atomic_head_inc_write	prefetch_rdma.c	/^void atomic_head_inc_write(void)$/;"	f
+atomic_tail_inc	prefetch_rdma.c	/^void atomic_tail_inc(void)$/;"	f
+atomic_tail_inc_write	prefetch_rdma.c	/^void atomic_tail_inc_write(void)$/;"	f
+atomic_write_idx_inc	prefetch_rdma.c	/^void atomic_write_idx_inc(void)$/;"	f
+baseaddr	prefetch_rdma.h	/^	u64 baseaddr;$/;"	m	struct:sswap_rdma_memregion
+before_write	prefetch_mmap.c	/^void before_write(struct page *page, uint64_t ts)$/;"	f
+begin_read	prefetch_rdma.c	/^static inline int begin_read(struct rdma_queue *q, struct page *page,$/;"	f	file:
+begin_read_buf	prefetch_rdma.c	/^static inline int begin_read_buf(struct rdma_queue *q, void *buf, size_t size, u64 roffset)$/;"	f	file:
+buf	prefetch_mmap.h	/^	char *buf; \/\/ value$/;"	m	struct:prefetch_data
+buf	prefetch_mmap.h	/^	char *buf;$/;"	m	struct:transfer_data_to_user
+buf	user_module/user_module/src/prefetch_dma.h	/^	char buf[PAGE_SIZE];$/;"	m	struct:hash_data
+buf	user_module/user_module/src/prefetch_user.c	/^	char buf[PAGE_SIZE];$/;"	m	struct:transfer_data_to_user	file:
+buf_info	prefetch_mmap.h	/^struct buf_info {$/;"	s
+buf_info	prefetch_rdma.c	/^struct buf_info buf_info;$/;"	v	typeref:struct:buf_info
+buf_inv	user_module/common/src/dma_common.h	/^	struct doca_buf_inventory *buf_inv;$/;"	m	struct:app_state	typeref:struct:app_state::doca_buf_inventory
+buffer	user_module/user_module/src/prefetch_dma.h	/^	struct hash_data *buffer;$/;"	m	struct:thread_data	typeref:struct:thread_data::hash_data
+bus_addr	user_module/user_module/src/prefetch_dma.h	/^	uint8_t bus_addr;$/;"	m	struct:prefetch_user_config
+can_insert	prefetch_mmap.c	/^static bool can_insert(uint64_t addr, uint64_t ts)$/;"	f	file:
+cleanup_core_objects	user_module/common/src/dma_common.c	/^cleanup_core_objects(struct app_state *state)$/;"	f
+client	prefetch_tracker_old.c	/^	struct sockaddr_in addr, client;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::	file:
+client_recv	user_module/user_module/src/dma_remote_copy_sender.c	/^client_recv(void *arg)$/;"	f
+client_send	user_module/user_module/src/dma_remote_copy_sender.c	/^client_send(void *arg)$/;"	f
+clientip	prefetch_rdma.c	/^static char clientip[INET_ADDRSTRLEN];$/;"	v	file:
+cm_done	prefetch_rdma.h	/^	struct completion cm_done;$/;"	m	struct:rdma_queue	typeref:struct:rdma_queue::completion
+cm_error	prefetch_rdma.h	/^	int cm_error;$/;"	m	struct:rdma_queue
+cm_id	prefetch_rdma.h	/^	struct rdma_cm_id *cm_id;$/;"	m	struct:rdma_queue	typeref:struct:rdma_queue::rdma_cm_id
+counter	prefetch_mmap.c	/^atomic_t counter = ATOMIC_INIT(0);$/;"	v
+cq	prefetch_rdma.h	/^	struct ib_cq *cq;$/;"	m	struct:rdma_queue	typeref:struct:rdma_queue::ib_cq
+cq_lock	prefetch_rdma.h	/^	spinlock_t cq_lock;$/;"	m	struct:rdma_queue
+cqe	prefetch_rdma.h	/^	struct ib_cqe cqe;$/;"	m	struct:rdma_req	typeref:struct:rdma_req::ib_cqe
+create_core_objects	user_module/common/src/dma_common.c	/^create_core_objects(struct app_state *state, char *mmap_name, char *inv_name)$/;"	f
+ctrl	prefetch_rdma.h	/^	struct sswap_rdma_ctrl *ctrl;$/;"	m	struct:rdma_queue	typeref:struct:rdma_queue::sswap_rdma_ctrl
+ctx	user_module/common/src/dma_common.h	/^	struct doca_ctx *ctx;$/;"	m	struct:app_state	typeref:struct:app_state::doca_ctx
+d_cli_state	user_module/user_module/src/prefetch_user.c	/^struct doca_state d_state, d_cli_state;$/;"	v	typeref:struct:
+d_recv_doorbell_state	user_module/user_module/src/prefetch_user.c	/^struct doca_state d_send_doorbell_state, d_recv_doorbell_state;$/;"	v	typeref:struct:
+d_send_doorbell_state	user_module/user_module/src/prefetch_user.c	/^struct doca_state d_send_doorbell_state, d_recv_doorbell_state;$/;"	v	typeref:struct:doca_state
+d_state	user_module/user_module/src/prefetch_dma.h	/^	struct doca_state *d_state;$/;"	m	struct:thread_data	typeref:struct:thread_data::doca_state
+d_state	user_module/user_module/src/prefetch_user.c	/^struct doca_state d_state, d_cli_state;$/;"	v	typeref:struct:doca_state
+data	prefetch_mmap.c	/^int *data = NULL;$/;"	v
+data_to_copy_len	user_module/user_module/src/prefetch_dma.h	/^	size_t data_to_copy_len;$/;"	m	struct:thread_data
+destroy_core_objects	user_module/common/src/dma_common.c	/^destroy_core_objects(struct app_state *state)$/;"	f
+destroy_core_objects_sender	user_module/common/src/dma_common.c	/^destroy_core_objects_sender(struct app_state *state)$/;"	f
+dev	prefetch_rdma.h	/^	struct ib_device *dev;$/;"	m	struct:sswap_rdma_dev	typeref:struct:sswap_rdma_dev::ib_device
+dev	user_module/common/src/dma_common.h	/^	struct doca_dev *dev;$/;"	m	struct:app_state	typeref:struct:app_state::doca_dev
+device_addr	user_module/user_module/src/prefetch_dma.h	/^	uint8_t device_addr;$/;"	m	struct:prefetch_user_config
+dma	prefetch_rdma.h	/^	u64 dma;$/;"	m	struct:rdma_req
+dma_clear	user_module/user_module/src/dma_remote_copy_receiver.c	/^dma_clear(struct app_state state, struct doca_state d_state)$/;"	f
+dma_ctx	user_module/common/src/dma_common.h	/^	struct doca_dma *dma_ctx;$/;"	m	struct:app_state	typeref:struct:app_state::doca_dma
+dma_remote_copy_init	user_module/user_module/src/dma_remote_copy_receiver.c	/^dma_remote_copy_init(struct doca_pci_bdf *pcie_addr, struct app_state *state, char *mmap_name, char *inv_name)$/;"	f
+dma_remote_copy_receiver	user_module/user_module/src/dma_remote_copy_receiver.c	/^dma_remote_copy_receiver(struct app_state state, void *dst_buffer, size_t data_to_copy_len, int sender_fd, struct doca_state *d_state, char *mmap_name)$/;"	f
+dma_remote_copy_sender	user_module/user_module/src/dma_remote_copy_sender.c	/^dma_remote_copy_sender(struct app_state state, void *src_buffer, size_t length, int sender_fd)$/;"	f
+dma_remote_sender_init	user_module/user_module/src/dma_remote_copy_sender.c	/^dma_remote_sender_init(struct doca_pci_bdf *pcie_addr, struct app_state *state, char *mmap_name)$/;"	f
+doca_state	user_module/user_module/src/prefetch_dma.h	/^struct doca_state {$/;"	s
+done	prefetch_rdma.h	/^	struct completion done;$/;"	m	struct:rdma_req	typeref:struct:rdma_req::completion
+drain_queue	prefetch_rdma.c	/^static inline int drain_queue(struct rdma_queue *q)$/;"	f	file:
+dst_doca_buf	user_module/user_module/src/prefetch_dma.h	/^	struct doca_buf *dst_doca_buf;$/;"	m	struct:doca_state	typeref:struct:doca_state::doca_buf
+end	user_module/user_module/src/dma_remote_copy_receiver.c	/^struct timespec start, end;$/;"	v	typeref:struct:
+function_addr	user_module/user_module/src/prefetch_dma.h	/^	uint8_t function_addr;$/;"	m	struct:prefetch_user_config
+gctrl	prefetch_rdma.c	/^static struct sswap_rdma_ctrl *gctrl;$/;"	v	typeref:struct:sswap_rdma_ctrl	file:
+get_queue_type	prefetch_rdma.c	/^inline enum qp_type get_queue_type(unsigned int idx)$/;"	f
+get_req_for_buf	prefetch_rdma.c	/^inline static int get_req_for_buf(struct rdma_req **req, struct ib_device *dev,$/;"	f	file:
+get_req_for_page	prefetch_rdma.c	/^inline static int get_req_for_page(struct rdma_req **req, struct ib_device *dev,$/;"	f	file:
+h_dma_send_state	user_module/user_module/src/prefetch_user.c	/^int h_dma_send_state;$/;"	v
+h_metadata_prefetch_data	prefetch_rdma.c	/^EXPORT_SYMBOL(h_metadata_prefetch_data);$/;"	v
+h_metadata_prefetch_data_keys	prefetch_mmap.c	/^uint64_t h_metadata_prefetch_data_keys[PAGE_CNT];$/;"	v
+h_metadata_prefetch_data_keys_idx	prefetch_mmap.c	/^atomic_t h_metadata_prefetch_data_keys_idx = ATOMIC_INIT(0);$/;"	v
+h_prefetch_data	prefetch_rdma.c	/^EXPORT_SYMBOL(h_prefetch_data);$/;"	v
+h_prefetch_data_keys	prefetch_mmap.c	/^uint64_t h_prefetch_data_keys[PAGE_CNT];$/;"	v
+h_prefetch_data_keys_idx	prefetch_mmap.c	/^atomic_t h_prefetch_data_keys_idx = ATOMIC_INIT(0);$/;"	v
+h_write_prefetch_data	prefetch_rdma.c	/^EXPORT_SYMBOL(h_write_prefetch_data);$/;"	v
+h_write_prefetch_data_keys	prefetch_mmap.c	/^uint64_t h_write_prefetch_data_keys[PAGE_CNT];$/;"	v
+h_write_prefetch_data_keys_idx	prefetch_mmap.c	/^atomic_t h_write_prefetch_data_keys_idx = ATOMIC_INIT(0);$/;"	v
+hash	user_module/user_module/src/prefetch_user.c	/^GHashTable *hash;$/;"	v
+hash_data	user_module/user_module/src/prefetch_dma.h	/^struct hash_data {$/;"	s
+hash_table_size	user_module/user_module/src/prefetch_user.c	/^int hash_table_size;$/;"	v
+head	prefetch_mmap.h	/^	atomic_t head;$/;"	m	struct:buf_info
+head_round	prefetch_mmap.h	/^	atomic_t head_round;$/;"	m	struct:buf_info
+host_page	prefetch_mmap.h	/^	uint64_t host_page;$/;"	m	struct:rdma_buf
+host_rdma_read_sync	prefetch_rdma.c	/^int host_rdma_read_sync(struct page *page, u64 roffset)$/;"	f
+host_rdma_write	prefetch_rdma.c	/^void host_rdma_write(struct page *page, uint64_t ts)$/;"	f
+inet_ntoa	ksocket.c	/^char *inet_ntoa(struct in_addr *in)$/;"	f
+init_core_objects	user_module/common/src/dma_common.c	/^init_core_objects(struct app_state *state, const uint32_t max_chunks)$/;"	f
+init_core_objects_sender	user_module/common/src/dma_common.c	/^init_core_objects_sender(struct app_state *state, char *mmap_name)$/;"	f
+is_page	prefetch_rdma.h	/^	bool is_page;$/;"	m	struct:rdma_req
+kaccept	ksocket.c	/^ksocket_t kaccept(ksocket_t socket, struct sockaddr *address, int *address_len)$/;"	f
+kbind	ksocket.c	/^int kbind(ksocket_t socket, struct sockaddr *address, int address_len)$/;"	f
+kconnect	ksocket.c	/^int kconnect(ksocket_t socket, struct sockaddr *address, int address_len)$/;"	f
+key	prefetch_rdma.h	/^	u32 key;$/;"	m	struct:sswap_rdma_memregion
+klisten	ksocket.c	/^int klisten(ksocket_t socket, int backlog)$/;"	f
+ksocket	ksocket.c	/^ksocket_t ksocket(int domain, int type, int protocol)$/;"	f
+ksocket_client_start	prefetch_tracker.c	/^int ksocket_client_start(void)$/;"	f
+ksocket_exit	prefetch_tracker.c	/^module_exit(ksocket_exit);$/;"	v
+ksocket_exit	prefetch_tracker.c	/^void ksocket_exit(void)$/;"	f
+ksocket_exit	prefetch_tracker_old.c	/^module_exit(ksocket_exit);$/;"	v
+ksocket_exit	prefetch_tracker_old.c	/^void ksocket_exit(void)$/;"	f
+ksocket_init	prefetch_tracker.c	/^int ksocket_init(void)$/;"	f
+ksocket_init	prefetch_tracker.c	/^module_init(ksocket_init);$/;"	v
+ksocket_init	prefetch_tracker_old.c	/^int ksocket_init(void)$/;"	f
+ksocket_init	prefetch_tracker_old.c	/^module_init(ksocket_init);$/;"	v
+ksocket_recv	ksocket.c	/^int ksocket_recv(ksocket_t sock, struct sockaddr_in *addr, struct prefetch_request *request)$/;"	f
+ksocket_recv	prefetch_tracker_old.c	/^int ksocket_recv(struct socket *sock, struct sockaddr_in *addr, struct prefetch_request *request)$/;"	f
+ksocket_send	ksocket.c	/^int ksocket_send(ksocket_t sock, struct sockaddr_in *addr, unsigned type, pgoff_t pageid, struct page *page, uint64_t ts)$/;"	f
+ksocket_send	prefetch_tracker_old.c	/^int ksocket_send(struct socket *sock, struct sockaddr_in *addr, unsigned type, pgoff_t pageid, struct page *page) $/;"	f
+ksocket_server_start	prefetch_tracker.c	/^static int ksocket_server_start(void)$/;"	f	file:
+ksocket_start	prefetch_tracker_old.c	/^static void ksocket_start(void)$/;"	f	file:
+ksocket_t	ksocket.h	/^typedef struct socket * ksocket_t;$/;"	t	typeref:struct:socket
+kthread	prefetch_tracker.c	/^struct kthread_t *kthread = NULL;$/;"	v	typeref:struct:kthread_t
+kthread	prefetch_tracker_old.c	/^struct kthread_t *kthread = NULL;$/;"	v	typeref:struct:kthread_t
+kthread_t	prefetch_tracker.c	/^struct kthread_t$/;"	s	file:
+kthread_t	prefetch_tracker_old.c	/^struct kthread_t$/;"	s	file:
+list	prefetch_rdma.h	/^	struct list_head list;$/;"	m	struct:rdma_req	typeref:struct:rdma_req::list_head
+main	user_module/build/meson-private/sanitycheckc.c	/^int main(void) { int class=0; return class; }$/;"	f
+main	user_module/build/meson-private/sanitycheckcpp.cc	/^class breakCCompiler;int main(void) { return 0; }$/;"	f
+main	user_module/user_module/src/prefetch_user.c	/^int main(int argc, char* argv[]) $/;"	f
+make_client_thread	user_module/user_module/src/prefetch_user.c	/^void make_client_thread(struct app_state *state, struct hash_data *data, size_t data_to_copy_len, MODE mode)$/;"	f
+make_server_thread	user_module/user_module/src/prefetch_user.c	/^void make_server_thread(struct app_state *state, struct doca_state *d_state, struct hash_data *data, size_t data_to_copy_len, MODE mode)$/;"	f
+mapped_fd	user_module/user_module/src/prefetch_dma.h	/^	int mapped_fd;$/;"	m	struct:thread_data
+mapped_fd	user_module/user_module/src/prefetch_user.c	/^int mapped_fd;$/;"	v
+mapped_file_read	user_module/user_module/src/prefetch_mmap.c	/^int mapped_file_read(int mapped_fd, struct hash_data *buffer, size_t data_to_copy_len) $/;"	f
+mapped_file_write	user_module/user_module/src/prefetch_mmap.c	/^int mapped_file_write(int mapped_fd, struct hash_data *buffer, size_t data_to_copy_len)$/;"	f
+mmap	user_module/common/src/dma_common.h	/^	struct doca_mmap *mmap;$/;"	m	struct:app_state	typeref:struct:app_state::doca_mmap
+mmap_device_exit	prefetch_tracker.c	/^static int mmap_device_exit(void)$/;"	f	file:
+mmap_device_exit	prefetch_tracker_old.c	/^static int mmap_device_exit(void)$/;"	f	file:
+mmap_device_init	prefetch_tracker.c	/^static int mmap_device_init(void)$/;"	f	file:
+mmap_device_init	prefetch_tracker_old.c	/^static int mmap_device_init(void)$/;"	f	file:
+mmap_fops	prefetch_mmap.c	/^struct file_operations mmap_fops = {$/;"	v	typeref:struct:file_operations
+mmap_lseek	prefetch_mmap.c	/^static loff_t mmap_lseek(struct file *filp, loff_t offset, int org)$/;"	f	file:
+mmap_open	prefetch_mmap.c	/^static int mmap_open(struct inode *inode, struct file *filp)$/;"	f	file:
+mmap_read_host	prefetch_mmap.c	/^static ssize_t mmap_read_host(struct file *filp, char __user *buf,$/;"	f	file:
+mmap_read_smartnic	prefetch_mmap.c	/^static ssize_t mmap_read_smartnic(struct file *filp, char __user *buf,$/;"	f	file:
+mmap_release	prefetch_mmap.c	/^static int mmap_release(struct inode *inode, struct file *filp)$/;"	f	file:
+mmap_remap	prefetch_mmap.c	/^static int mmap_remap(struct file *filp, struct vm_area_struct *vma)$/;"	f	file:
+mmap_vm_fault	prefetch_mmap.c	/^static vm_fault_t mmap_vm_fault(struct vm_fault *vmf)$/;"	f	file:
+mmap_vma_close	prefetch_mmap.c	/^static void mmap_vma_close(struct vm_area_struct *vma)$/;"	f	file:
+mmap_vma_open	prefetch_mmap.c	/^static void mmap_vma_open(struct vm_area_struct *vma)$/;"	f	file:
+mmap_write_host	prefetch_mmap.c	/^static ssize_t mmap_write_host(struct file *filp, const char __user *buf,$/;"	f	file:
+mmap_write_smartnic	prefetch_mmap.c	/^static ssize_t mmap_write_smartnic(struct file *flip, const char __user *buf,$/;"	f	file:
+mmapdev_cdev	prefetch_tracker.c	/^struct cdev *mmapdev_cdev = NULL;$/;"	v	typeref:struct:cdev
+mmapdev_cdev	prefetch_tracker_old.c	/^struct cdev *mmapdev_cdev = NULL;$/;"	v	typeref:struct:cdev
+mmapdev_class	prefetch_tracker.c	/^struct class *mmapdev_class = NULL;$/;"	v	typeref:struct:class
+mmapdev_class	prefetch_tracker_old.c	/^struct class *mmapdev_class = NULL;$/;"	v	typeref:struct:class
+mmapdev_major	prefetch_tracker.c	/^unsigned int mmapdev_major;$/;"	v
+mmapdev_major	prefetch_tracker_old.c	/^unsigned int mmapdev_major;$/;"	v
+mode	user_module/user_module/src/prefetch_dma.h	/^	int mode;$/;"	m	struct:prefetch_user_config
+my_hash_list	prefetch_mmap.h	/^	struct hlist_node my_hash_list; \/\/ hash_list $/;"	m	struct:prefetch_data	typeref:struct:prefetch_data::hlist_node
+my_mutex	prefetch_tracker.c	/^static struct mutex my_mutex;$/;"	v	typeref:struct:mutex	file:
+my_mutex	prefetch_tracker_old.c	/^static struct mutex my_mutex;$/;"	v	typeref:struct:mutex	file:
+myclock	prefetch_tracker.c	/^static inline long myclock(void)$/;"	f	file:
+myclock	prefetch_tracker_old.c	/^static inline long myclock(void)$/;"	f	file:
+numcpus	prefetch_rdma.c	/^static int numcpus;$/;"	v	file:
+numqueues	prefetch_rdma.c	/^static int numqueues;$/;"	v	file:
+obj-m	Makefile	/^obj-m := prefetch_module.o$/;"	m
+offset	prefetch_mmap.h	/^	u64 offset;$/;"	m	struct:write_prefetch_data
+open_local_device	user_module/common/src/dma_common.c	/^open_local_device(struct doca_pci_bdf *desired_addr, struct app_state *state)$/;"	f
+page	prefetch_mmap.h	/^	struct page *page;$/;"	m	struct:rdma_buf	typeref:struct:rdma_buf::page
+page	prefetch_rdma.h	/^	struct page *page;$/;"	m	struct:rdma_req	typeref:struct:rdma_req::page
+page_address	ksocket.h	/^	uint64_t page_address;$/;"	m	struct:prefetch_request
+page_address	prefetch_tracker_old.c	/^	uint64_t page_address;$/;"	m	struct:prefetch_request	file:
+pageid	ksocket.h	/^	pgoff_t pageid;$/;"	m	struct:prefetch_request
+pageid	prefetch_tracker_old.c	/^	pgoff_t pageid;$/;"	m	struct:prefetch_request	file:
+pcie_addr	user_module/user_module/src/prefetch_user.c	/^struct doca_pci_bdf pcie_addr;$/;"	v	typeref:struct:doca_pci_bdf
+pd	prefetch_rdma.h	/^	struct ib_pd *pd;$/;"	m	struct:sswap_rdma_dev	typeref:struct:sswap_rdma_dev::ib_pd
+pending	prefetch_rdma.h	/^	atomic_t pending;$/;"	m	struct:rdma_queue
+poll_data	prefetch_tracker.c	/^static bool poll_data(struct page *page)$/;"	f	file:
+poll_data	prefetch_tracker_old.c	/^static bool poll_data(struct page *page)$/;"	f	file:
+poll_target	prefetch_rdma.c	/^static inline int poll_target(struct rdma_queue *q, int target)$/;"	f	file:
+populate_mmap	user_module/common/src/dma_common.c	/^populate_mmap(struct doca_mmap *mmap, char *buffer, size_t length, size_t pg_sz)$/;"	f
+port	user_module/user_module/src/prefetch_dma.h	/^	char *port;$/;"	m	struct:prefetch_user_config
+port	user_module/user_module/src/prefetch_user.c	/^char *port;$/;"	v
+pr_fmt	prefetch_rdma.c	1;"	d	file:
+prefetch_data	prefetch_mmap.h	/^struct prefetch_data {$/;"	s
+prefetch_lru_drain	prefetch_mmap.c	/^static void prefetch_lru_drain(uint64_t addr, HASHTABLE_TYPE type)$/;"	f	file:
+prefetch_module-objs	Makefile	/^prefetch_module-objs := ksocket.o prefetch_rdma.o prefetch_mmap.o prefetch_tracker.o$/;"	m
+prefetch_request	ksocket.h	/^struct prefetch_request {$/;"	s
+prefetch_request	prefetch_tracker_old.c	/^struct prefetch_request {$/;"	s	file:
+prefetch_user_config	user_module/user_module/src/prefetch_dma.h	/^struct prefetch_user_config {$/;"	s
+prefetch_user_config	user_module/user_module/src/prefetch_user.c	/^struct prefetch_user_config prefetch_user_config = {0};$/;"	v	typeref:struct:prefetch_user_config
+printLog	user_module/user_module/src/prefetch_user.c	/^bool printLog(doca_error_t res) $/;"	f
+qp	prefetch_rdma.h	/^	struct ib_qp *qp;$/;"	m	struct:rdma_queue	typeref:struct:rdma_queue::ib_qp
+qp_type	prefetch_rdma.h	/^	enum qp_type qp_type;$/;"	m	struct:rdma_queue	typeref:enum:rdma_queue::qp_type
+qp_type	prefetch_rdma.h	/^enum qp_type {$/;"	g
+queues	prefetch_rdma.h	/^	struct rdma_queue *queues;$/;"	m	struct:sswap_rdma_ctrl	typeref:struct:sswap_rdma_ctrl::rdma_queue
+rdev	prefetch_rdma.h	/^	struct sswap_rdma_dev *rdev;$/;"	m	struct:sswap_rdma_ctrl	typeref:struct:sswap_rdma_ctrl::sswap_rdma_dev
+rdma_buf	prefetch_mmap.h	/^struct rdma_buf {$/;"	s
+rdma_buf	prefetch_rdma.c	/^struct rdma_buf rdma_buf[PAGE_CNT];$/;"	v	typeref:struct:rdma_buf
+rdma_init	prefetch_rdma.c	/^int rdma_init(void)$/;"	f
+rdma_kthread	prefetch_tracker.c	/^struct kthread_t *rdma_kthread = NULL;$/;"	v	typeref:struct:kthread_t
+rdma_kthread	prefetch_tracker_old.c	/^struct kthread_t *rdma_kthread = NULL;$/;"	v	typeref:struct:kthread_t
+rdma_queue	prefetch_rdma.h	/^struct rdma_queue {$/;"	s
+rdma_req	prefetch_rdma.h	/^struct rdma_req {$/;"	s
+receive_json_from_sender	user_module/user_module/src/dma_remote_copy_receiver.c	/^receive_json_from_sender(char *export_buffer, size_t export_buffer_len, char **remote_addr,$/;"	f	file:
+receive_socket	user_module/user_module/src/dma_remote_copy_receiver.c	/^receive_socket(const char *port)$/;"	f
+receiver_ip	user_module/user_module/src/prefetch_dma.h	/^	char *receiver_ip;$/;"	m	struct:prefetch_user_config
+receiver_ip	user_module/user_module/src/prefetch_user.c	/^char *receiver_ip;$/;"	v
+receiver_port	user_module/user_module/src/prefetch_dma.h	/^	uint16_t receiver_port;$/;"	m	struct:prefetch_user_config
+receiver_port	user_module/user_module/src/prefetch_user.c	/^uint16_t receiver_port;$/;"	v
+recv_doorbell	user_module/user_module/src/prefetch_user.c	/^uint8_t recv_doorbell, send_doorbell;$/;"	v
+recv_doorbell_state	user_module/user_module/src/prefetch_user.c	/^struct app_state send_doorbell_state, recv_doorbell_state;$/;"	v	typeref:struct:
+recv_request	prefetch_tracker.c	/^static void recv_request(void)$/;"	f	file:
+recv_state	user_module/user_module/src/prefetch_user.c	/^struct app_state send_state, recv_state;$/;"	v	typeref:struct:
+recv_thread	user_module/user_module/src/prefetch_user.c	/^pthread_t recv_thread;$/;"	v
+recv_thread_state	user_module/user_module/src/prefetch_user.c	/^bool recv_thread_state = true, send_thread_state = true;$/;"	v
+register_prefetch_user_params	user_module/user_module/src/prefetch_argp.c	/^register_prefetch_user_params(void)$/;"	f
+remote_mmap	user_module/user_module/src/prefetch_dma.h	/^	struct doca_mmap *remote_mmap;$/;"	m	struct:doca_state	typeref:struct:doca_state::doca_mmap
+req_cache	prefetch_rdma.c	/^static struct kmem_cache *req_cache;$/;"	v	typeref:struct:kmem_cache	file:
+role	user_module/user_module/src/prefetch_dma.h	/^	int role;$/;"	m	struct:prefetch_user_config
+running	prefetch_tracker.c	/^	int running;$/;"	m	struct:kthread_t	file:
+running	prefetch_tracker_old.c	/^	int running;$/;"	m	struct:kthread_t	file:
+sdk_version_callback	user_module/common/src/utils.c	/^sdk_version_callback(void *doca_config, void *param)$/;"	f
+send_ack_to_sender	user_module/user_module/src/dma_remote_copy_receiver.c	/^send_ack_to_sender(int sender_fd)$/;"	f	file:
+send_doorbell	user_module/user_module/src/prefetch_user.c	/^uint8_t recv_doorbell, send_doorbell;$/;"	v
+send_doorbell_state	user_module/user_module/src/prefetch_user.c	/^struct app_state send_doorbell_state, recv_doorbell_state;$/;"	v	typeref:struct:app_state
+send_json_to_receiver	user_module/user_module/src/dma_remote_copy_sender.c	/^send_json_to_receiver(int sender_fd, char *export_str, size_t export_str_len)$/;"	f
+send_metadata	prefetch_mmap.c	/^atomic_t send_metadata = ATOMIC_INIT(0);$/;"	v
+send_socket	user_module/user_module/src/dma_remote_copy_sender.c	/^send_socket(char *ip, uint64_t port)$/;"	f
+send_state	user_module/user_module/src/prefetch_user.c	/^struct app_state send_state, recv_state;$/;"	v	typeref:struct:app_state
+send_thread	user_module/user_module/src/prefetch_user.c	/^pthread_t send_thread;$/;"	v
+send_thread_state	user_module/user_module/src/prefetch_user.c	/^bool recv_thread_state = true, send_thread_state = true;$/;"	v
+sender_fd	user_module/user_module/src/prefetch_user.c	/^int sender_fd;$/;"	v
+server_recv	user_module/user_module/src/dma_remote_copy_receiver.c	/^server_recv(void *arg)$/;"	f
+server_send	user_module/user_module/src/dma_remote_copy_receiver.c	/^server_send(void *arg)$/;"	f
+serverip	prefetch_rdma.c	/^static char serverip[INET_ADDRSTRLEN];$/;"	v	file:
+servermr	prefetch_rdma.h	/^	struct sswap_rdma_memregion servermr;$/;"	m	struct:sswap_rdma_ctrl	typeref:struct:sswap_rdma_ctrl::sswap_rdma_memregion
+serverport	prefetch_rdma.c	/^static int serverport;$/;"	v	file:
+set_bus_addr_param	user_module/user_module/src/prefetch_argp.c	/^set_bus_addr_param(void *config, void *param)$/;"	f	file:
+set_dest_ip_param	user_module/user_module/src/prefetch_argp.c	/^set_dest_ip_param(void *config, void *param)$/;"	f	file:
+set_dest_port_param	user_module/user_module/src/prefetch_argp.c	/^set_dest_port_param(void *config, void *param)$/;"	f	file:
+set_device_addr_param	user_module/user_module/src/prefetch_argp.c	/^set_device_addr_param(void *config, void *param)$/;"	f	file:
+set_doorbell	user_module/user_module/src/dma_remote_copy_receiver.c	/^set_doorbell(MODE method)$/;"	f
+set_function_addr_param	user_module/user_module/src/prefetch_argp.c	/^set_function_addr_param(void *config, void *param)$/;"	f	file:
+set_listen_port_param	user_module/user_module/src/prefetch_argp.c	/^set_listen_port_param(void *config, void *param)$/;"	f	file:
+set_mode_param	user_module/user_module/src/prefetch_argp.c	/^set_mode_param(void *config, void *param)$/;"	f	file:
+set_role_param	user_module/user_module/src/prefetch_argp.c	/^set_role_param(void *config, void *param)$/;"	f	file:
+size	prefetch_mmap.h	/^	int size;$/;"	m	struct:buf_info
+size	prefetch_rdma.h	/^	size_t size;$/;"	m	struct:rdma_req
+sock	prefetch_tracker_old.c	/^	struct socket *sock;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::socket	file:
+socket_serverip	prefetch_tracker.c	/^static char socket_serverip[INET_ADDRSTRLEN];$/;"	v	file:
+socket_serverip	prefetch_tracker_old.c	/^static char socket_serverip[INET_ADDRSTRLEN];$/;"	v	file:
+sockfd_cli	prefetch_tracker.c	/^	ksocket_t sockfd_srv, sockfd_cli;$/;"	m	struct:kthread_t	file:
+sockfd_srv	prefetch_tracker.c	/^	ksocket_t sockfd_srv, sockfd_cli;$/;"	m	struct:kthread_t	file:
+src_doca_buf	user_module/user_module/src/prefetch_dma.h	/^	struct doca_buf *src_doca_buf;$/;"	m	struct:doca_state	typeref:struct:doca_state::doca_buf
+srcaddr	prefetch_rdma.h	/^		struct sockaddr srcaddr;$/;"	m	union:sswap_rdma_ctrl::__anon2	typeref:struct:sswap_rdma_ctrl::__anon2::sockaddr
+srcaddr_in	prefetch_rdma.h	/^		struct sockaddr_in srcaddr_in;$/;"	m	union:sswap_rdma_ctrl::__anon2	typeref:struct:sswap_rdma_ctrl::__anon2::sockaddr_in
+sswap_frontswap_ops	prefetch_tracker.c	/^static struct frontswap_ops sswap_frontswap_ops = {$/;"	v	typeref:struct:frontswap_ops	file:
+sswap_frontswap_ops	prefetch_tracker_old.c	/^static struct frontswap_ops sswap_frontswap_ops = {$/;"	v	typeref:struct:frontswap_ops	file:
+sswap_init	prefetch_tracker.c	/^static void sswap_init(unsigned type)$/;"	f	file:
+sswap_init	prefetch_tracker_old.c	/^static void sswap_init(unsigned type)$/;"	f	file:
+sswap_invalidate_area	prefetch_tracker.c	/^static void sswap_invalidate_area(unsigned type)$/;"	f	file:
+sswap_invalidate_area	prefetch_tracker_old.c	/^static void sswap_invalidate_area(unsigned type)$/;"	f	file:
+sswap_invalidate_page	prefetch_tracker.c	/^static void sswap_invalidate_page(unsigned type, pgoff_t offset)$/;"	f	file:
+sswap_invalidate_page	prefetch_tracker_old.c	/^static void sswap_invalidate_page(unsigned type, pgoff_t offset)$/;"	f	file:
+sswap_load	prefetch_tracker.c	/^static int sswap_load(unsigned type, pgoff_t pageid, struct page *page)$/;"	f	file:
+sswap_load	prefetch_tracker_old.c	/^static int sswap_load(unsigned type, pgoff_t pageid, struct page *page)$/;"	f	file:
+sswap_load_async	prefetch_tracker.c	/^static int sswap_load_async(unsigned type, pgoff_t pageid, struct page *page)$/;"	f	file:
+sswap_lookup_prefetch	prefetch_tracker.c	/^static int sswap_lookup_prefetch(struct page *page, pgoff_t pageid)$/;"	f	file:
+sswap_rdma_addone	prefetch_rdma.c	/^static int sswap_rdma_addone(struct ib_device *dev)$/;"	f	file:
+sswap_rdma_addr_resolved	prefetch_rdma.c	/^static int sswap_rdma_addr_resolved(struct rdma_queue *q)$/;"	f	file:
+sswap_rdma_cm_handler	prefetch_rdma.c	/^static int sswap_rdma_cm_handler(struct rdma_cm_id *cm_id, struct rdma_cm_event *ev)$/;"	f	file:
+sswap_rdma_conn_established	prefetch_rdma.c	/^static int sswap_rdma_conn_established(struct rdma_queue *q)$/;"	f	file:
+sswap_rdma_create_ctrl	prefetch_rdma.c	/^static int sswap_rdma_create_ctrl(struct sswap_rdma_ctrl **c)$/;"	f	file:
+sswap_rdma_create_qp	prefetch_rdma.c	/^static int sswap_rdma_create_qp(struct rdma_queue *queue)$/;"	f	file:
+sswap_rdma_create_queue_ib	prefetch_rdma.c	/^static int sswap_rdma_create_queue_ib(struct rdma_queue *q)$/;"	f	file:
+sswap_rdma_ctrl	prefetch_rdma.h	/^struct sswap_rdma_ctrl {$/;"	s
+sswap_rdma_destroy_queue_ib	prefetch_rdma.c	/^static void sswap_rdma_destroy_queue_ib(struct rdma_queue *q)$/;"	f	file:
+sswap_rdma_dev	prefetch_rdma.h	/^struct sswap_rdma_dev {$/;"	s
+sswap_rdma_free_queue	prefetch_rdma.c	/^static void sswap_rdma_free_queue(struct rdma_queue *q)$/;"	f	file:
+sswap_rdma_get_device	prefetch_rdma.c	/^static struct sswap_rdma_dev *sswap_rdma_get_device(struct rdma_queue *q)$/;"	f	file:
+sswap_rdma_get_queue	prefetch_rdma.c	/^inline struct rdma_queue *sswap_rdma_get_queue(unsigned int cpuid, enum qp_type type)$/;"	f
+sswap_rdma_ib_client	prefetch_rdma.c	/^static struct ib_client sswap_rdma_ib_client = {$/;"	v	typeref:struct:ib_client	file:
+sswap_rdma_init_queue	prefetch_rdma.c	/^static int sswap_rdma_init_queue(struct sswap_rdma_ctrl *ctrl,$/;"	f	file:
+sswap_rdma_init_queues	prefetch_rdma.c	/^static int sswap_rdma_init_queues(struct sswap_rdma_ctrl *ctrl)$/;"	f	file:
+sswap_rdma_memregion	prefetch_rdma.h	/^struct sswap_rdma_memregion {$/;"	s
+sswap_rdma_parse_ipaddr	prefetch_rdma.c	/^static int sswap_rdma_parse_ipaddr(struct sockaddr_in *saddr, char *ip)$/;"	f	file:
+sswap_rdma_post_rdma	prefetch_rdma.c	/^inline static int sswap_rdma_post_rdma(struct rdma_queue *q, struct rdma_req *qe,$/;"	f	file:
+sswap_rdma_post_recv	prefetch_rdma.c	/^static int sswap_rdma_post_recv(struct rdma_queue *q, struct rdma_req *qe,$/;"	f	file:
+sswap_rdma_qp_event	prefetch_rdma.c	/^static void sswap_rdma_qp_event(struct ib_event *e, void *c)$/;"	f	file:
+sswap_rdma_read_async	prefetch_rdma.c	/^int sswap_rdma_read_async(uint64_t page_address, u64 roffset, uint64_t ts)$/;"	f
+sswap_rdma_read_async_buf	prefetch_rdma.c	/^int sswap_rdma_read_async_buf(void *buf, size_t size, u64 roffset)$/;"	f
+sswap_rdma_read_done	prefetch_rdma.c	/^static void sswap_rdma_read_done(struct ib_cq *cq, struct ib_wc *wc)$/;"	f	file:
+sswap_rdma_read_sync	prefetch_rdma.c	/^int sswap_rdma_read_sync(uint64_t page_address, u64 roffset, uint64_t ts)$/;"	f
+sswap_rdma_read_sync_buf	prefetch_rdma.c	/^int sswap_rdma_read_sync_buf(void *buf, size_t size, u64 roffset)$/;"	f
+sswap_rdma_recv_remotemr	prefetch_rdma.c	/^static int sswap_rdma_recv_remotemr(struct sswap_rdma_ctrl *ctrl)$/;"	f	file:
+sswap_rdma_recv_remotemr_done	prefetch_rdma.c	/^static void sswap_rdma_recv_remotemr_done(struct ib_cq *cq, struct ib_wc *wc)$/;"	f	file:
+sswap_rdma_removeone	prefetch_rdma.c	/^static void sswap_rdma_removeone(struct ib_device *ib_device, void *client_data)$/;"	f	file:
+sswap_rdma_route_resolved	prefetch_rdma.c	/^static int sswap_rdma_route_resolved(struct rdma_queue *q, struct rdma_conn_param *conn_params)$/;"	f	file:
+sswap_rdma_stop_queue	prefetch_rdma.c	/^static void sswap_rdma_stop_queue(struct rdma_queue *q)$/;"	f	file:
+sswap_rdma_wait_completion	prefetch_rdma.c	/^inline static void sswap_rdma_wait_completion(struct ib_cq *cq,$/;"	f	file:
+sswap_rdma_wait_for_cm	prefetch_rdma.c	/^inline static int sswap_rdma_wait_for_cm(struct rdma_queue *queue)$/;"	f	file:
+sswap_rdma_write	prefetch_rdma.c	/^int sswap_rdma_write(uint64_t page_address, u64 offset, uint64_t ts, char *buf)$/;"	f
+sswap_rdma_write_done	prefetch_rdma.c	/^static void sswap_rdma_write_done(struct ib_cq *cq, struct ib_wc *wc)$/;"	f	file:
+sswap_store	prefetch_tracker.c	/^static int sswap_store(unsigned type, pgoff_t pageid, struct page *page)$/;"	f	file:
+sswap_store	prefetch_tracker_old.c	/^static int sswap_store(unsigned type, pgoff_t pageid, struct page *page)$/;"	f	file:
+start	user_module/user_module/src/dma_remote_copy_receiver.c	/^struct timespec start, end;$/;"	v	typeref:struct:timespec
+state	user_module/user_module/src/prefetch_dma.h	/^	struct app_state *state;$/;"	m	struct:thread_data	typeref:struct:thread_data::app_state
+tail	prefetch_mmap.h	/^	atomic_t tail;$/;"	m	struct:buf_info
+tail_round	prefetch_mmap.h	/^	atomic_t tail_round;$/;"	m	struct:buf_info
+thread	prefetch_tracker.c	/^	struct task_struct *thread, *write_thread;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::task_struct	file:
+thread	prefetch_tracker_old.c	/^	struct task_struct *thread;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::task_struct	file:
+thread_data	user_module/user_module/src/prefetch_dma.h	/^struct thread_data {$/;"	s
+transfer_data_to_user	prefetch_mmap.h	/^struct transfer_data_to_user {$/;"	s
+transfer_data_to_user	user_module/user_module/src/prefetch_user.c	/^struct transfer_data_to_user {$/;"	s	file:
+ts	ksocket.h	/^	uint64_t ts;$/;"	m	struct:prefetch_request
+ts	prefetch_mmap.h	/^	uint64_t ts; \/\/ time$/;"	m	struct:prefetch_data
+ts	prefetch_mmap.h	/^	uint64_t ts;$/;"	m	struct:rdma_buf
+ts	prefetch_mmap.h	/^	uint64_t ts;$/;"	m	struct:write_prefetch_data
+ts	user_module/user_module/src/prefetch_dma.h	/^	uint64_t ts;$/;"	m	struct:hash_data
+type	ksocket.h	/^	unsigned type;$/;"	m	struct:prefetch_request
+type	prefetch_tracker_old.c	/^	unsigned type;$/;"	m	struct:prefetch_request	file:
+unused	user_module/user_module/src/prefetch_dma.h	15;"	d
+vm_fault_t	prefetch_mmap.h	18;"	d
+vma_ops	prefetch_mmap.c	/^struct vm_operations_struct vma_ops = {$/;"	v	typeref:struct:vm_operations_struct
+wait_doorbell	user_module/user_module/src/dma_remote_copy_receiver.c	/^wait_doorbell(MODE method)$/;"	f
+workq	user_module/common/src/dma_common.h	/^	struct doca_workq *workq;$/;"	m	struct:app_state	typeref:struct:app_state::doca_workq
+write_addr	prefetch_rdma.c	/^uint64_t write_addr[PAGE_CNT];$/;"	v
+write_buf_info	prefetch_rdma.c	/^struct buf_info write_buf_info;$/;"	v	typeref:struct:buf_info
+write_idx	prefetch_rdma.c	/^atomic_t write_idx;$/;"	v
+write_prefetch_data	prefetch_mmap.h	/^struct write_prefetch_data {$/;"	s
+write_queue_add	prefetch_rdma.c	/^static inline int write_queue_add(struct rdma_queue *q, struct page *page,$/;"	f	file:
+write_rdma_buf	prefetch_rdma.c	/^struct rdma_buf write_rdma_buf[PAGE_CNT];$/;"	v	typeref:struct:rdma_buf
+write_request	prefetch_tracker.c	/^static void write_request(void)$/;"	f	file:
+write_running	prefetch_tracker.c	/^	int write_running;$/;"	m	struct:kthread_t	file:
+write_thread	prefetch_tracker.c	/^	struct task_struct *thread, *write_thread;$/;"	m	struct:kthread_t	typeref:struct:kthread_t::	file:
